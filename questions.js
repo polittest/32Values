@@ -1,9 +1,51 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Economic regulations are needed for a properly functioning economy.",
         "effect": {
-            "freedom": 100,
-            "power": 100,
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 10,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Patriotism is important.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 10,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Freedom is more important than order.",
+        "effect": {
+            "freedom": 10,
+            "power": 10,
             "culture": 0,
             "inclusivity": 0,
             "econpower": 0,
@@ -20,11 +62,73 @@ questions = [
             "commonland": 0
         }
     },
-
     {
-        "question": "It is important that we further my group's goals above all others.",
+        "question": "Cultural progress is important.",
         "effect": {
             "freedom": 0,
+            "power": 0,
+            "culture": 10,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "State interventionism in the economy is not real solution to anything.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": -10,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Oligarchy and/or autocracy are/is best form of government.",
+        "effect": {
+            "freedom": 0,
+            "power": -10,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Pornography should be banned.",
+        "effect": {
+            "freedom": -10,
             "power": 0,
             "culture": 0,
             "inclusivity": 0,
@@ -41,5 +145,509 @@ questions = [
             "merit": 0,
             "commonland": 0
         }
-    }
+    },
+{
+        "question": "Government should be big.",
+        "effect": {
+            "freedom": 10,
+            "power": 10,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 10,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "We should stop economic globalisation.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": -10,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Free international trade is beneficial to everyone.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 10,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Sometimes protectionist policies are needed.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": -10,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "We should pursue economic autarky.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": -15,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Income tax should be abolished.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": -10,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "We should dismantle hierarchies.",
+        "effect": {
+            "freedom": 0,
+            "power": 10,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "The state should control all aspects of the economy.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": -10,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 20,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Economic organizations should never be international.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": -15,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Healthcare should never be free.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": -10,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Economy should be centrally planned.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": -15,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "We should implement autocracy or despotism.",
+        "effect": {
+            "freedom": 0,
+            "power": -10,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": -15,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Ideally laws would not exist.",
+        "effect": {
+            "freedom": 10,
+            "power": 10,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "We should stop or at least reduce immigration.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 10,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "My nation is great.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 10,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "I support isolationist and anti-interventionist policies.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": -10,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Workers should have more say in the workplace.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Market economies are inefficient and undesirable.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 10,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "We should produce based on use not commodity.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 10,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "We should fully abolish market.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 10,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "A non monetary economy is desirable.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 10,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Prices should be set based on supply and demand.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": -10,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Exchange between individuals should form basis of our economy.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": -10,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "AI could help in our economy",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 10,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 10,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
 ];
