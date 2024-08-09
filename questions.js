@@ -307,7 +307,7 @@ questions = [
             "equity": 0,
             "horizontal": 0,
             "planning": 0,
-            "regulation": 20,
+            "regulation": 15,
             "automation": 0,
             "production": 0,
             "merit": 0,
@@ -315,7 +315,7 @@ questions = [
         }
     },
 {
-        "question": "Economic organizations should never be international.",
+        "question": "Economic organizations should not be international.",
         "effect": {
             "freedom": 0,
             "power": 0,
@@ -462,6 +462,132 @@ questions = [
         }
     },
 {
+        "question": "My country should try to regain it's lost territories.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 15,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "International laws are always illegitimate.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": -10,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "World federalism or unity world government is generally good idea.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 15,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Some jobs should be reserved for people born into higher class families.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": -10,
+            "commonland": 0
+        }
+    },
+{
+        "question": "An individual’s role in society should be inherited from their parents.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": -10,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Education should be free and universal.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 10,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 10,
+            "commonland": 0
+        }
+    },
+{
         "question": "I support isolationist and anti-interventionist policies.",
         "effect": {
             "freedom": 0,
@@ -546,27 +672,6 @@ questions = [
         }
     },
 {
-        "question": "We should fully abolish market.",
-        "effect": {
-            "freedom": 0,
-            "power": 0,
-            "culture": 0,
-            "inclusivity": 0,
-            "econpower": 0,
-            "econglobe": 0,
-            "globe": 0,
-            "nation": 0,
-            "equity": 0,
-            "horizontal": 0,
-            "planning": 10,
-            "regulation": 0,
-            "automation": 0,
-            "production": 0,
-            "merit": 0,
-            "commonland": 0
-        }
-    },
-{
         "question": "A non monetary economy is desirable.",
         "effect": {
             "freedom": 0,
@@ -588,7 +693,7 @@ questions = [
         }
     },
 {
-        "question": "Prices should be set based on supply and demand.",
+        "question": "Prices should be determined by supply and demand.",
         "effect": {
             "freedom": 0,
             "power": 0,
@@ -645,6 +750,384 @@ questions = [
             "planning": 0,
             "regulation": 0,
             "automation": 10,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Inheritance of anything which is not personal possessions is not legitimate.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 15,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Some roles and jobs should be hereditary.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": -10,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Tax money should not fund the lifestyles of monarchs or aristocrats.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 10,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Not everyone should be allowed to make economic decisions.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": -10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Basic utilities should not be left to the market.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 10,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "What is produced should not be down to the whims of the market.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 10,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Central banking is best form of banking.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": -10,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "A stratified class system is desirable.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": -10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": -10,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Certain services like roads and public transportation should be run by the state.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": -10,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "The Industrial Revolution and its consequences have been a disaster for the human race.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": -10,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Government run industry is superior to existing alternatives.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": -10,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Worker's self-management is a good idea.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "There should be no managers with authority over workers.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Workers should not be given too much autonomy or they’ll be lazy.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": -10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "The hiring and firing of workers should not be down to the whims of bosses.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": -10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Independent labor organizations should not be allowed to exist.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": -10,
+            "planning": 0,
+            "regulation": 10,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Top down structures for organisations work best.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": -10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "The economy should be organised on the local level.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": -10,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
             "production": 0,
             "merit": 0,
             "commonland": 0
