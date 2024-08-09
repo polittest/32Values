@@ -1,0 +1,160 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>8values Quiz</title>
+<link rel="icon" type="x-icon" href="icon.png">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<meta charset="utf-8">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6511426299019766",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+<body>
+<script type="application/javascript"
+        src="questions.js">
+</script>
+<h1>32values</h1>
+<hr>
+<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<p class="question" id="question-text"></p>
+<button class="button stronglyAgree" onclick="next_question( 1.0)">Strongly Agree</button> <br>
+<button class="button agree" onclick="next_question( 0.5)">Agree</button> <br>
+<button class="button neutral" onclick="next_question( 0.0)">Neutral/Unsure</button> <br>
+<button class="button disagree" onclick="next_question(-0.5)">Disagree</button> <br>
+<button class="button stronglyDisagree" onclick="next_question(-1.0)">Strongly Disagree</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
+<button class="small_button_off" id="back_button_off">Back</button><br>
+
+
+
+<!-- JavaScript for the test itself -->
+<script>
+    var max_freedom, max_power, max_culture, max_inclusivity, max_econpower, max_econglobe, max_globe, max_nation, max_equity, max_horizontal, max_planning, max_regulation, max_automation, max_production, max_merit, max_commonland; // Max possible scores
+    max_freedom = max_power = max_culture = max_inclusivity = max_econpower = max_econglobe = max_globe = max_nation = max_equity = max_horizontal = max_planning = max_regulation = max_automation = max_production = max_merit = max_commonland = 0;
+    let freedom_array = new Array(questions.length);
+    let power_array = new Array(questions.length);
+    let culture_array = new Array(questions.length);
+    let inclusivity_array = new Array(questions.length);
+    let econpower_array = new Array(questions.length);
+    let econglobe_array = new Array(questions.length);
+    let globe_array = new Array(questions.length);
+    let nation_array = new Array(questions.length);
+    let equity_array = new Array(questions.length);
+    let horizontal_array = new Array(questions.length);
+    let planning_array = new Array(questions.length);
+    let regulation_array = new Array(questions.length);
+    let automation_array = new Array(questions.length);
+    let production_array = new Array(questions.length);
+    let merit_array = new Array(questions.length);
+    let commonland_array = new Array(questions.length);
+    var qn = 0; // Question number
+    init_question();
+    for (var i = 0; i < questions.length; i++) {
+        max_freedom += Math.abs(questions[i].effect.freedom)
+        max_power += Math.abs(questions[i].effect.power)
+        max_culture += Math.abs(questions[i].effect.culture)
+        max_inclusivity += Math.abs(questions[i].effect.inclusivity)
+        max_econpower += Math.abs(questions[i].effect.econpower)
+        max_econglobe += Math.abs(questions[i].effect.econglobe)
+        max_globe += Math.abs(questions[i].effect.globe)
+        max_nation += Math.abs(questions[i].effect.nation)
+        max_equity += Math.abs(questions[i].effect.equity)
+        max_horizontal += Math.abs(questions[i].effect.horizontal)
+        max_planning += Math.abs(questions[i].effect.planning)
+        max_regulation += Math.abs(questions[i].effect.regulation)
+        max_automation += Math.abs(questions[i].effect.automation)
+        max_production += Math.abs(questions[i].effect.production)
+        max_merit += Math.abs(questions[i].effect.merit)
+        max_commonland += Math.abs(questions[i].effect.commonland)
+    }
+    function init_question() {
+        document.getElementById("question-text").innerHTML = questions[qn].question;
+        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        if (qn == 0) {
+            document.getElementById("back_button").style.display = 'none';
+            document.getElementById("back_button_off").style.display = 'block';
+        } else {
+            document.getElementById("back_button").style.display = 'block';
+            document.getElementById("back_button_off").style.display = 'none';
+        }
+
+    }
+
+    function next_question(mult) {
+        freedom_array[qn] = mult*questions[qn].effect.freedom
+        power_array[qn] = mult*questions[qn].effect.power
+        culture_array[qn] = mult*questions[qn].effect.culture
+        inclusivity_array[qn] = mult*questions[qn].effect.inclusivity
+        econpower_array[qn] = mult*questions[qn].effect.econpower
+        econglobe_array[qn] = mult*questions[qn].effect.econglobe
+        globe_array[qn] = mult*questions[qn].effect.globe
+        nation_array[qn] = mult*questions[qn].effect.nation
+        equity_array[qn] = mult*questions[qn].effect.equity
+        horizontal_array[qn] = mult*questions[qn].effect.horizontal
+        planning_array[qn] = mult*questions[qn].effect.planning
+        regulation_array[qn] = mult*questions[qn].effect.regulation
+        automation_array[qn] = mult*questions[qn].effect.automation
+        production_array[qn] = mult*questions[qn].effect.production
+        merit_array[qn] = mult*questions[qn].effect.merit
+        commonland_array[qn] = mult*questions[qn].effect.commonland
+        qn++;
+        if (qn < questions.length) {
+            init_question();
+        } else {
+            results();
+        }
+    }
+
+    function prev_question() {
+        if (qn == 0) {
+            return;
+        }
+        qn--;
+        init_question();
+    }
+
+    function calc_score(score,max) {
+        return (100*(max+score)/(2*max)).toFixed(1)
+    }
+
+    function results() {
+        let final_freedom = freedom_array.reduce((a, b) => a + b, 0)
+        let final_power = power_array.reduce((a, b) => a + b, 0)
+        let final_culture = culture_array.reduce((a, b) => a + b, 0)
+        let final_inclusivity = inclusivity_array.reduce((a, b) => a + b, 0)
+        let final_econpower = econpower_array.reduce((a, b) => a + b, 0)
+        let final_econglobe = econglobe_array.reduce((a, b) => a + b, 0)
+        let final_globe = globe_array.reduce((a, b) => a + b, 0)
+        let final_nation = nation_array.reduce((a, b) => a + b, 0)
+        let final_equity = equity_array.reduce((a, b) => a + b, 0)
+        let final_horizontal = horizontal_array.reduce((a, b) => a + b, 0)
+        let final_planning = planning_array.reduce((a, b) => a + b, 0)
+        let final_regulation = regulation_array.reduce((a, b) => a + b, 0)
+        let final_automation = automation_array.reduce((a, b) => a + b, 0)
+        let final_production = production_array.reduce((a, b) => a + b, 0)
+        let final_merit = merit_array.reduce((a, b) => a + b, 0)
+        let final_commonland = commonland_array.reduce((a, b) => a + b, 0)
+        location.href = `results.html`
+            + `?a=${calc_score(final_freedom,max_freedom)}`
+            + `&b=${calc_score(final_power,max_power)}`
+            + `&c=${calc_score(final_culture,max_culture)}`
+            + `&d=${calc_score(final_inclusivity,max_inclusivity)}`
+            + `&e=${calc_score(final_econpower,max_econpower)}`
+            + `&f=${calc_score(final_econglobe,max_econglobe)}`
+            + `&g=${calc_score(final_globe,max_globe)}`
+            + `&h=${calc_score(final_nation,max_nation)}`
+            + `&i=${calc_score(final_equity,max_equity)}`
+            + `&j=${calc_score(final_horizontal,max_horizontal)}`
+            + `&k=${calc_score(final_planning,max_planning)}`
+            + `&l=${calc_score(final_regulation,max_regulation)}`
+            + `&m=${calc_score(final_automation,max_automation)}`
+            + `&n=${calc_score(final_production,max_production)}`
+            + `&o=${calc_score(final_merit,max_merit)}`
+            + `&p=${calc_score(final_commonland,max_commonland)}`
+    }
+</script>
+</body>
