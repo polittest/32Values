@@ -21,6 +21,27 @@ questions = [
         }
     },
 {
+        "question": "I support full deeregulation.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": -15,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
         "question": "Patriotism is important.",
         "effect": {
             "freedom": 0,
@@ -45,6 +66,27 @@ questions = [
         "question": "Freedom is more important than order.",
         "effect": {
             "freedom": 10,
+            "power": 10,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Unitary government is better than a federal one.",
+        "effect": {
+            "freedom": 0,
             "power": 10,
             "culture": 0,
             "inclusivity": 0,
@@ -777,7 +819,7 @@ questions = [
         }
     },
 {
-        "question": "Inheritance of anything which is not personal possessions is not legitimate.",
+        "question": "Inheritance of anything which is not personal possession is not legitimate.",
         "effect": {
             "freedom": 0,
             "power": 0,
@@ -981,6 +1023,154 @@ questions = [
             "planning": 0,
             "regulation": 0,
             "automation": -10,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "We should abolish agriculture and go back to hunthergatherer lifestyle.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": -10,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Co-operatives are worse than traditional business model.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": -10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Land should be free to use for everyone.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 10,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 10
+        }
+    },
+{
+        "question": "Competition corrupts people's behavior.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 5,
+            "horizontal": 0,
+            "planning": 5,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Slavery can be justified if it's productive enought.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": -15,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+
+{
+        "question": Investors and business owners should get their share of profit.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": -10,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Decentralised economies are inefficient.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": -10,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
             "production": 0,
             "merit": 0,
             "commonland": 0
