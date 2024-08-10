@@ -128,7 +128,7 @@ questions = [
 {
         "question": "Pornography should be banned.",
         "effect": {
-            "freedom": -10,
+            "freedom": -5,
             "power": 0,
             "culture": 0,
             "inclusivity": 0,
@@ -382,6 +382,27 @@ questions = [
         "effect": {
             "freedom": 0,
             "power": -10,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Large scale organisations can increase efficiency.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
             "culture": 0,
             "inclusivity": 0,
             "econpower": -15,
@@ -714,7 +735,7 @@ questions = [
         }
     },
 {
-        "question": "Exchange between individuals should form basis of our economy.",
+        "question": "Voluntary exchange between individuals should form basis of our economy.",
         "effect": {
             "freedom": 0,
             "power": 0,
@@ -777,7 +798,7 @@ questions = [
         }
     },
 {
-        "question": "Some roles and jobs should be hereditary.",
+        "question": "Some roles should be hereditary.",
         "effect": {
             "freedom": 0,
             "power": 0,
@@ -1133,4 +1154,257 @@ questions = [
             "commonland": 0
         }
     },
+{
+        "question": "Pop culture is better than local culture.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 10,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Some sexual orientations are to be socially favored.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": -10,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+
+{
+        "question": "Euthanasia should be legal.",
+        "effect": {
+            "freedom": 15,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Any sexual activity is fine as long as everyone involved is a consenting adult.",
+        "effect": {
+            "freedom": 10,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Altering our language to make it more gender-inclusive is not a bad idea.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 10,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Gender should be abolished.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 10,
+            "inclusivity": 5,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "An individual's gender is determined by their chromosomes.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": -10,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "International borders should not exist.",
+        "effect": {
+            "freedom": 10,
+            "power": 10,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "We should be skeptical of new technologies.",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": -10,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": -5,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Political correctness has gone too far.",
+        "effect": {
+            "freedom": 10,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": -10,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Free speech should be protected",
+        "effect": {
+            "freedom": 15,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
+        "question": "Firearms should be available to the general public.",
+        "effect": {
+            "freedom": 10,
+            "power": 10,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    }
 ];
