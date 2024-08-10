@@ -357,6 +357,27 @@ questions = [
         }
     },
 {
+        "question": "It's wasteful to have so many different brands of the same ",
+        "effect": {
+            "freedom": 0,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 0,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 10,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
+{
         "question": "Economic organizations should not be international.",
         "effect": {
             "freedom": 0,
