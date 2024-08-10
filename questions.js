@@ -1406,5 +1406,26 @@ questions = [
             "merit": 0,
             "commonland": 0
         }
-    }
+    },
+{
+        "question": "Everyone has right to believe in any religion.",
+        "effect": {
+            "freedom": 10,
+            "power": 0,
+            "culture": 0,
+            "inclusivity": 10,
+            "econpower": 0,
+            "econglobe": 0,
+            "globe": 0,
+            "nation": 0,
+            "equity": 0,
+            "horizontal": 0,
+            "planning": 0,
+            "regulation": 0,
+            "automation": 0,
+            "production": 0,
+            "merit": 0,
+            "commonland": 0
+        }
+    },
 ];
